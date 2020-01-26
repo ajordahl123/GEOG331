@@ -6,8 +6,9 @@ a <- 2446
 a/2
 
 v <- c(2446, 40, 100)
-
 v*a
 
-myVector <- c(10, 20, 30, 40)
+num <- 10
+
+myVector <- c(0, num, 20, 30, 40)
 myVector*2
