@@ -24,7 +24,7 @@ assert(length(a) == length(b), "error: unequal length")
 
 #read in the data (location depending on computer)
 fileSources = c("y:\\Students\\ajordahl\\a03\\bewkes_weather.csv", "/Users/Ali/Desktop/Colgate!/Environmental\ Data\ Science/GitHub/GEOG331/activity3/bewkes_weather.csv")
-fileSource = fileSources[2]
+fileSource = fileSources[1]
 
 #skip the first 3 rows since there is additional column info
 #specify the the NA is designated differently
@@ -212,7 +212,6 @@ plot(datW$DD, datW$soil.temp, pch=19, type="p", xlab = "Day of Year",
 # plot with precip
 plot(datW$DD, datW$precipitation, pch=19, type="p", xlab = "Day of Year",
      ylab="Precipitation", col= "pink")
-
 
 ############
 
