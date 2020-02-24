@@ -1,3 +1,5 @@
+# Ali Jordahl
+
 #use built in iris dataset
 #take a look at it 
 
