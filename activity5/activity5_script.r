@@ -6,7 +6,7 @@ library(lubridate)
 
 #read in streamflow data
 fileSources = c("y:\\Students\\ajordahl\\a05\\stream_flow_data.csv", "/Users/Ali/Desktop/Colgate!/Environmental\ Data\ Science/GitHub/GEOG331/activity5/stream_flow_data.csv")
-fileSource = fileSources[2]
+fileSource = fileSources[1]
 datH <- read.csv(fileSource, na.strings = c("Eqp"))
 head(datH)
 
