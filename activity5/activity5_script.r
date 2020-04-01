@@ -6,14 +6,14 @@ library(lubridate)
 
 #read in streamflow data
 fileSources = c("y:\\Students\\ajordahl\\a05\\stream_flow_data.csv", "/Users/Ali/Desktop/Colgate!/Environmental\ Data\ Science/GitHub/GEOG331/activity5/stream_flow_data.csv")
-fileSource = fileSources[1]
+fileSource = fileSources[2]
 datH <- read.csv(fileSource, na.strings = c("Eqp"))
 head(datH)
 
 #read in precipitation data
 #hourly precipitation is in mm
 fileSources2 = c("y:\\Students\\ajordahl\\a05\\2049867.csv", "/Users/Ali/Desktop/Colgate!/Environmental\ Data\ Science/GitHub/GEOG331/activity5/2049867.csv")
-fileSource2 = fileSources2[1]
+fileSource2 = fileSources2[2]
 datP <- read.csv(fileSource2)                          
 head(datP)
 
